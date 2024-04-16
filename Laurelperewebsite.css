@@ -1,0 +1,108 @@
+body{
+	  background-image: url(Landscape.webp);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center center;
+	  background-attachment: fixed;
+	  min-height: 100vh;
+	  font-family: "Gudea", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+	font-family: "Bakbak One", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+nav{
+	color: white;
+}
+.nav-link{
+	font-family: Josefin Slab;
+	font-size: 14px;
+	text-shadow: 2px 2px 8px black;
+}
+.navbar-brand{
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+.container-fluid{
+   
+}
+.jumbotron{
+  padding-bottom: ;
+  padding-top: 150px;
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px 8px black;
+  align-items: center;
+
+}
+
+}
+.fara{
+	padding-top: 75px;
+	size: 68px;
+}
+.carousel{
+	margin-top: 600px;
+	max-width: 100%;
+	height: auto;
+	size: 30px;
+}
+.carousel-item{
+	height: 500px;
+}
+.carousel-item img{
+	position: absolute;
+	top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.carousel-caption{
+    text-shadow: 2px 1px 4px black;
+}
+@media only screen and (max-width: 480px) {
+	.carousel{
+         margin-top: 300px;
+	}
+}
+@media only screen and (min-device-width: 480px) {
+	body{
+		background-image: url(Landscape.webp);
+	}
+}
+.icon{
+	margin-right: auto;
+}
+span{
+	color: orange;
+}
+.push{
+	max-width: 100%;
+	height: auto;
+}
+footer{
+	background-color: #3f5270;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: auto;
+	margin-top: auto;
+
+}
+a{
+	color: black;
+	text-decoration: none;
+	align-self: start;
+}
+li{
+	list-style: none;
+	align-self: start;
+}
